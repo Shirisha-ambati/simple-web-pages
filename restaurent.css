@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.food-munch-logo {
+  width: 80px;
+  height: 70px;
+}
+.nav-design{
+  background-color: #ffe5ca;
+
+  
+}
+.home-image{
+  height: 500px;
+  width: 1000px;
+}
+#navItem1 {
+  color:  #323f4b;
+  font-family: "bree serif";
+}
+#navItem2 {
+  color: #323f4b;
+  font-family: "bree serif";
+}
+#navItem3 {
+  color: #323f4b;
+  font-family: "bree serif";
+}
+#navItem4 {
+  color: #323f4b;
+  font-family: "Roboto";
+  padding:0.4rem 1rem;
+  
+   background: linear-gradient(90deg, #ffa94d, #FFC300, #ffd4a6);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+#navItem4:hover {
+ background: linear-gradient(90deg, #ffa94d, #FFC300,#ffa94d, #ffd4a6, #FFC300);
+}
+.banner-section-bg-container {
+   background-color: #fff9db;
+  height: 100vh;
+  background-size: cover;
+}
+.menu-item-card {
+  border-radius: 16px;
+  background-color:white ;
+  margin-top: 50pc;
+}
+.menu-item-image {
+  border-radius: 16px;
+}
+
