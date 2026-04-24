@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: black;
+  box-sizing: border-box;
+}
+h3 {
+  color: #2ecc71;
+  font-size: 25px;
+  margin-left: 100px;
+}
+.main-bar {
+  padding: 30px;
+
+  display: flex;
+  justify-content: space-between;
+  background: rgba(10, 10, 10, 0.95);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav {
+  margin-right: 100px;
+}
+.home {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  margin-right: 200px;
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  border: 3px solid #2ecc71;
+  box-shadow: 0 0 50px #1bde6c;
+  animation: float 3s ease-in-out infinite;
+  filter: grayscale(0.2) contrast(1.1);
+}
+@keyframes float{
+  0%, 100% {transform: translateY(0);}
+50% {transform: translateY(-20px);}
+}
+.content {
+  margin-left: 100px;
+}
+h1 {
+  color: #2ecc71;
+  margin-bottom: 20px;
+  font-size: 45px;
+  background: linear-gradient(45deg, #1bde6c 30%, #fff 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.home-content {
+  margin-bottom: 20px;
+  color: white;
+}
+button {
+  color: white;
+  background-color: #1bde6c;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+h4 {
+  color: white;
+  font-size: 20px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+}
+.skills {
+  color: white;
+  padding:5rem 5%;
+  
+}
+
+.skill {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.symbol {
+  color: #1bde6c;
+  font-size: 25px;
+}
+p {
+  line-height: 1.6;
+}
+.skills-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap:2rem;
+
+}
+.skills-card{
+  padding:2rem;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  transition: all 0.3s ease;
+border: 1px solid rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(5px);
+}
+.skills-card:hover{
+  transform: translateY(-10px);
+  border-color: #2ecc71;
+  box-shadow: 0 10px 30px #2ecc71;
+}
+footer{
+  padding: 3rem 5%;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: aliceblue;
+}
+.app-icons{
+  margin-top:2rem;
+
+display: flex;
+justify-content: center;
+gap:2rem;
+font-size: 30px;
+}
+.app-icons:hover{
+  cursor: pointer;
+  color:rgb(76, 248, 133);
+}
