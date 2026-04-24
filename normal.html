@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .box {
+        width: 200px;
+        height: 100px;
+        border: 2px solid black;
+        margin: 10px;
+        padding: 5px;
+      }
+
+      .visible {
+        overflow: visible; /* default */
+      }
+
+      .hidden {
+        overflow: hidden;
+      }
+
+      .scroll {
+        overflow: scroll;
+      }
+
+      .auto {
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>overflow: visible;</h3>
+    <div class="box visible">
+      This is some very long content that goes outside the box but still remains
+      visible.
+    </div>
+
+    <h3>overflow: hidden;</h3>
+    <div class="box hidden">
+      This is some very long content that gets cut off and hidden outside the
+      box.
+    </div>
+
+    <h3>overflow: scroll;</h3>
+    <div class="box scroll">
+      This is some very long content that makes scrollbars appear in the box so
+      you can scroll.
+    </div>
+
+    <h3>overflow: auto;</h3>
+    <div class="box auto">
+      This is some very long content that only shows scrollbars if needed.
+    </div>
+  </body>
+</html>
