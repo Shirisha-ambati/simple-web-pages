@@ -1,7 +1,7 @@
 # simple-web-pages
 👇
 
-🍽️ Restaurant & Mentorship Web UI
+🍽️ Restaurant & Mentorship Web UI & portfolio & small practices
 📌 Project Overview
 
 This project is a responsive web application that includes:
@@ -27,17 +27,11 @@ Mentor lead highlight section
 Mentor cards with roles & descriptions
 Responsive grid layout
 Navigation bar with mobile toggle
+🙂Portfolio
+small practices
 🛠️ Tech Stack
 HTML5
 CSS3
 Bootstrap 4
 JavaScript (basic navigation)
-📂 Project Structure
-project/
-│
-├── restaurent-1.html
-├── restaurent.css
-├── mentorship.html
-├── mentorship.css
-├── roop-top-restaurent.jpg
-└── README.md
+
